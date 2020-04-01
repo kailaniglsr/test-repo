@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+* {
+    margin: 0rem;
+    font-family: raleway;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 5px 50px;
+    background-color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+a.nav {
+    text-decoration: none;
+    color: #707070;
+}
+
+
+body {
+    background-color: #A9CBD8;
+    height: 100%;
+    width: 100%;
+}
+
+#polaroid {
+    border-top: 5px solid white;
+    height: 200px;
+
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    padding: 3rem;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+}
+
+img.arbeiten {
+    border: 15px solid white;
+    width: 300px;
+    height: 400px;
+    justify-content: space-between;
+}
+
+img.portrait {
+    width: 40%;
+    height: 40%;
+}
+
+main.home {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin: 5% 0;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main {
+    margin: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Link-Gestaltung*/
+.nav a {
+    float: left;
+    color: rgba(182, 146, 135, 0.5);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+
+
+
+.text {
+    width: 300px;
+    position: absolute;
+    top: 90%;
+    left: 20%;
+}
+
+h1 {
+    font-size: 18px;
+    text-align: left;
+    margin: 0 5%;
+    padding: 0;
+}
+
+p {
+    font-size: 14px;
+    margin-left: 0.9rem;
+    margin-top: 0.6rem;
+    margin-right: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+article {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    height: 100%;
+    max-width: 300px;
+}
+
+/* Schwarz-weiss-Filter verschwindet bei Hover */
+article:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+/* Hovergestaltung Links */
+a:hover {
+    color: black;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    margin: 5% 0;
+    justify-content: space-between;
+}
+
+h2 {
+    color: white;
+    display: flex;
+}
+
+
+.nactive {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 100%;
+    color: #707070;
+    font-weight: lighter;
+    letter-spacing: 0.05em;
+    display: block;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 0.8rem
+}
